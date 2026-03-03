@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact — Anka Ventures</title>
+    <meta name="description" content="Get in touch with Anka Ventures. Reach out to start a conversation.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <div class="nav-inner">
+            <a href="index.html" class="nav-logo">
+                <span class="logo-text">ANKA</span>
+                <span class="logo-sub">VENTURES</span>
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <div class="page-hero-content">
+                <span class="section-label fade-up">Contact</span>
+                <h1 class="page-hero-title fade-up delay-1">Let's Build <span class="gold-text">Together</span></h1>
+                <p class="page-hero-desc fade-up delay-2">Whether you're a founder with a bold idea, or an enterprise exploring new horizons — we'd love to hear from you.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Info -->
+                <div class="contact-info reveal">
+                    <div class="contact-info-block">
+                        <h3>Get in Touch</h3>
+                        <p>We respond to every inquiry. Reach out and let's explore what we can build together.</p>
+                    </div>
+                    <div class="contact-info-block">
+                        <span class="contact-info-label">Email</span>
+                        <a href="mailto:minh@anka.vc" class="contact-info-value">minh@anka.vc</a>
+                    </div>
+                    <div class="contact-info-block">
+                        <span class="contact-info-label">Location</span>
+                        
+                    </div>
+                    <div class="contact-decoration">
+                        <div class="contact-decoration-line"></div>
+                        <span class="gold-text">Anka Ventures</span>
+                        <div class="contact-decoration-line"></div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <form class="contact-form reveal delay-1" action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="34e513e4-bdf6-4af9-bc8f-abe43ce91492">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required placeholder="Your full name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required placeholder="your@email.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required placeholder="What's this about?">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="6" required placeholder="Tell us about your project or idea..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-brand">
+                    <div class="nav-logo">
+                        <span class="logo-text">ANKA</span>
+                        <span class="logo-sub">VENTURES</span>
+                    </div>
+                    <p class="footer-tagline">Co-Founder at Scale</p>
+                </div>
+                <div class="footer-links">
+                    <a href="index.html">Home</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="footer-info">
+                    
+                    <p><a href="mailto:minh@anka.vc">minh@anka.vc</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Anka Ventures. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
