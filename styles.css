@@ -1261,3 +1261,19 @@ a.contact-info-value:hover {
         grid-template-columns: 1fr;
     }
 }
+
+/* Timeline tags */
+.hiw-timeline-tag {
+    display: inline-block;
+    margin-top: 0.75rem;
+    padding: 0.25rem 0.75rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--gold);
+    border: 1px solid rgba(212, 175, 55, 0.3);
+    border-radius: 20px;
+    background: rgba(212, 175, 55, 0.05);
+}
