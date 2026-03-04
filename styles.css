@@ -1105,6 +1105,7 @@ a.contact-info-value:hover {
     gap: 0;
     position: relative;
     padding: 0 1rem;
+    max-width: 100%;
 }
 
 .hiw-step {
@@ -1113,6 +1114,7 @@ a.contact-info-value:hover {
     align-items: center;
     text-align: center;
     flex: 1 1 0;
+    min-width: 0;
     transition: transform 0.4s ease;
 }
 
@@ -1147,7 +1149,7 @@ a.contact-info-value:hover {
     display: flex;
     align-items: center;
     padding-top: 20px;
-    flex: 0 0 40px;
+    flex: 0 0 30px;
     opacity: 0.6;
 }
 
