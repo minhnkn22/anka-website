@@ -1166,25 +1166,62 @@ a.contact-info-value:hover {
 
 @media (max-width: 768px) {
     .hiw-track {
-        justify-content: flex-start;
-        padding: 0 2rem;
-    }
-    
-    .hiw-step {
-        flex: 0 0 160px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0;
+        padding: 0;
+        position: relative;
+        padding-left: 50px;
     }
 
-    .hiw-node svg {
-        width: 44px;
-        height: 44px;
+    .hiw-track::before {
+        content: '';
+        position: absolute;
+        left: 31px;
+        top: 0;
+        bottom: 0;
+        width: 2px;
+        background: linear-gradient(to bottom, var(--gold), rgba(212, 175, 55, 0.1));
+    }
+
+    .hiw-step {
+        flex: none;
+        text-align: left;
+        align-items: flex-start;
+        padding: 1.5rem 0;
+        position: relative;
+    }
+
+    .hiw-node {
+        position: absolute;
+        left: -50px;
+        top: 1.5rem;
+        width: 48px;
+        height: 48px;
+        margin-bottom: 0;
+        z-index: 2;
+        background: var(--black);
+    }
+
+    .hiw-node i {
+        font-size: 1.2rem;
     }
 
     .hiw-step h3 {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
     }
-    
+
     .hiw-step p {
-        font-size: 0.85rem;
+        font-size: 0.9rem;
+        max-width: 100%;
+    }
+
+    .hiw-connector {
+        display: none;
+    }
+
+    .hiw-timeline {
+        overflow-x: visible;
     }
 }
 
