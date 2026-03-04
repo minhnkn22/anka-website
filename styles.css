@@ -838,7 +838,7 @@ a.contact-info-value:hover {
 .footer-inner {
     display: flex;
     justify-content: space-between;
-    align-items: start;
+    align-items: center;
     gap: 40px;
     margin-bottom: 48px;
 }
