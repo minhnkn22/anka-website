@@ -1091,7 +1091,11 @@ a.contact-info-value:hover {
 /* How It Works — Horizontal Timeline */
 .hiw-timeline {
     margin-top: 4rem;
-    overflow-x: hidden;
+    overflow: hidden;
+}
+
+.hiw-track-line {
+    display: none;
 }
 
 .hiw-track {
